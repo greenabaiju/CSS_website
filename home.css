@@ -1,0 +1,154 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav{
+    background-color: #001c57;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    padding-right: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Banner Image */
+#img{
+    width: 1520px;
+    height: 600px;
+}
+
+/* Marquee */
+marquee{
+    background-color: #dbeafe;
+    padding: 10px;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+/* About Section */
+#sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+
+#img1{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+span{
+    color: #2563eb;
+}
+
+.h2{
+    margin-bottom: 20px;
+}
+
+/* Sub Cards */
+#parentdiv{
+    display: flex;
+    gap: 20px;
+}
+
+.childdiv{
+    background-color: #e0f2fe;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+
+/* CSS Types */
+#ptype{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px;
+}
+
+.ctype{
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Feature Images */
+#fp{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.fc{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+/* Footer */
+footer{
+    background-color: #1e293b;
+    color: white;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.copy{
+    text-align: center;
+    margin-top: 15px;
+    border-top: 1px solid #475569;
+    padding: 30px;
+}
